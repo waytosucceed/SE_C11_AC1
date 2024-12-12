@@ -1,0 +1,113 @@
+[
+    {
+      "questionNo": "Q1",
+      "question": "Which of the following is a statement?",
+      "options": [
+        "“What time is it?”",
+        "“The sun rises in the east.”",
+        "“Please close the door.”",
+        "“Are you coming to the party?”"
+      ],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q2",
+      "question": "What is the form of a conditional statement?",
+      "options": [
+        "“If P, then Q.”",
+        "“P and Q.”",
+        "“P or Q.”",
+        "“Not P and not Q.”"
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q3",
+      "question": "Identify the antecedent in:<br> “If it rains, then the ground will be wet.”",
+      "options": [
+        "It does not rain.",
+        "The ground will be wet.",
+        "It rains.",
+        "The ground is dry."
+      ],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q4",
+      "question": "What is the contrapositive of: <br>“If the car is red, then it is fast”?",
+      "options": [
+        "If it is not red, then it is not fast.",
+        "If it is not fast, then it is not red.",
+        "If it is fast, then it is red.",
+        "If the car is not red, then it is fast."
+      ],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q5",
+      "question": "Which of the following demonstrates the converse of the conditional statement <br>“If a number is even, then it is divisible by 2”?",
+      "options": [
+        "If a number is divisible by 2, then it is even.",
+        "If a number is not even, then it is not divisible by 2.",
+        "If a number is not divisible by 2, then it is not even.",
+        "If a number is even, then it is not divisible by 2."
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q6",
+      "question": "Which of the following is NOT a valid logical statement?",
+      "options": [
+        "“I think, therefore I am.”",
+        "“7 is greater than 3.”",
+        "“Perhaps we are not alone in the universe.”",
+        "“Water freezes at 0 degrees Celsius.”"
+      ],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q7",
+      "question": "Which condition is logically equivalent to “If a tree is a pine, then it is an evergreen”?",
+      "options": [
+        "If a tree is not an evergreen, then it is not a pine.",
+        "If a tree is an evergreen, then it is a pine.",
+        "If a tree is not a pine, then it is not an evergreen.",
+        "If a tree is a pine, then it is not an evergreen."
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q8",
+      "question": "What can be inferred from the statement “If there is smoke, there is fire”?",
+      "options": [
+        "If there is no fire, there is no smoke.",
+        "If there is fire, there is smoke.",
+        "If there is no smoke, there is fire.",
+        "If there is smoke, there is no fire."
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q9",
+      "question": "What does the statement “If the light is green, then you can drive” imply?",
+      "options": [
+        "If you cannot drive, the light is green.",
+        "If you can drive, the light is not green.",
+        "If the light is not green, you cannot drive.",
+        "If you can drive, the light is not green."
+      ],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q10",
+      "question": "If a number is divisible by 4, then it is even.<br> Which of the following statements is the converse of the original statement?",
+      "options": [
+        "If a number is not divisible by 4, then it is not even.",
+        "If a number is even, then it is divisible by 4.",
+        "If a number is not even, then it is divisible by 4.",
+        "If a number is not even, then it is not divisible by 4."
+      ],
+      "correct": 1
+    }
+  ]
+  

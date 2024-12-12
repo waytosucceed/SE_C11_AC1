@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table, th,td{
+  border:1px solid black;
+}
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          
+        <div class="lesson-title">Analyze Conditions And Relationships</div>
+        
+          <div>
+            <h2>Statement :</h2>
+            <p>
+              A statement is a declarative sentence that is either true or false but not both. In logical reasoning, statements are the building blocks used to analyze conditions and relationships.
+            </p>
+           
+            <h3>Examples : </h3>
+            <ul>
+              <li>“The sun rises in the east.” (True)</li>
+              <li>“2+2 = 5” (False)</li>
+              <li>“I like pizza.” (Not a statement, as it’s an opinion, not a fact.)</li>
+            </ul>
+            
+            <h3>Non-Examples:</h3>
+            <ul>
+              <li>“What time is it?” (This is a question, not a statement.)</li>
+              <li>“Please pass the salt.” (This is a command, not a statement.)</li>
+            </ul>
+
+            <h2>Conditional Statement :</h2>
+            <p>
+              A conditional statement describes a relationship between two statements using the “if…then” format. It indicates that if the first part (P, called the “antecedent”) is true, then the second part (Q, called the “consequent”) must also be true.
+              <br><br>
+              <b>The general form is :</b> If P, then Q.
+            </p>
+            <h3>Examples:</h3>
+            <ol>
+              <li>“If it rains, then the ground will be wet.”
+                <ul>
+                  <li><b>P:</b> It rains</li>
+                  <li><b>Q:</b> The ground will be wet.</li>
+                </ul>
+              </li>
+              <li>“If a number is even, then it is divisible by 2.”
+                <ul>
+                  <li><b>P:</b> A number is even.</li>
+                  <li><b>Q:</b> It is divisible by 2.</li>
+                </ul>
+              </li>
+            </ol>
+            <h2>Understand “If P, Then Q” : </h2>
+            <p>
+              In logic, the conditional statement “If P, then Q” means that whenever P is true, Q must also be true.
+
+            </p>
+            <ul>
+              <li>However, if P is false, the statement does not guarantee anything about Q.</li>
+
+              <li>The focus is on ensuring that the truth of P leads to the truth of Q.</li>
+            </ul>
+            <h3>Examples:</h3>
+            <ol>
+              <li>“If the light is green, then you can drive.”
+                <ul>
+                  <li>If P (light is green), then Q (you can drive).</li>
+                  <li>If the light is not green, the statement does not say whether you can drive or not.</li>
+                </ul>
+              </li>
+              <li>“If a student studies, then they will pass the exam.”
+                <ul>
+                  <li>If P (student studies), then Q (they pass the exam).</li>
+                </ul>
+              </li>
+            </ol>
+            <h2>Variations of “If P, Then Q” :</h2>
+            <p>There are other ways to express the relationship between P and Q:</p>
+
+            <ol>
+              <li><b>Contrapositive:</b>
+                <ul>
+                  <li>“If not Q, then not P.”</li>
+                  <li>This is logically equivalent to “If P, then Q.”</li>
+                </ul>
+              </li>
+              <li><b>Converse:</b>
+                <ul>
+                  <li>“If Q, then P.”</li>
+                  <li>This is not equivalent to “If P, then Q.”
+                  </li>
+                </ul>
+              </li>
+              <li><b>Inverse:</b>
+                <ul>
+                  <li>“If not P, then not Q.”</li>
+                  <li>This is not equivalent to “If P, then Q.”</li>
+                </ul>
+              </li>
+            </ol>
+            <h3>Examples:</h3>
+            <ol>
+              <li>
+                <b>Original:</b> “If it rains, then the ground will be wet.”
+                <ul>
+                  <li><b>Contrapositive:</b> “If the ground is not wet, then it has not rained.”</li>
+                  <li><b>Converse:</b> “If the ground is wet, then it has rained.” (Not necessarily true.)</li>
+                  <li><b>Inverse:</b> “If it does not rain, then the ground will not be wet.” (Not necessarily true.)</li>
+                </ul>
+              </li>
+            </ol>
+            <h2>Practical Applications :</h2>
+            <p>
+              Conditional statements are commonly used in everyday reasoning, problem-solving, and mathematics.
+            </p>
+            <h3>Examples in Daily Life:</h3>
+            <ol>
+              <li>
+                “If you finish your homework, then you can play video games.”
+                <ul>
+                  <li>If the homework is done, playing games is allowed.</li>
+                </ul>
+              </li>
+              <li>
+                “If you exercise regularly, then you will stay healthy.”
+                <ul>
+                  <li>Regular exercise leads to good health.</li>
+                </ul>
+              </li>
+            </ol>
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>
